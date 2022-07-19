@@ -1,0 +1,109 @@
+	*{
+		margin:0;
+		padding:0;
+	}
+			
+	#outta{
+		width:100vw;
+		height:100vh;
+		background-image:url("./imgs/tile.jpg");
+		background-repeat:repeat;
+	}
+			
+	#outta > #inna{
+		width:800px;
+		height:50vh;
+		margin:0 auto;
+		text-align:center;
+	}
+			
+	#outta > #inna > img{
+		margin:30px auto 20px auto;
+	}
+		
+	#outta > #inna > div{
+		background-image:url("./imgs/formbg.jpg");
+		background-position:center;
+		background-repeat:repeat-y;
+		padding:20px;
+	}
+			
+	#outta > #inna > div > #selectdate{
+		width:200px;
+		margin:20px 20px;
+		border:3px solid blue;
+		border-radius:3px;
+	}
+			
+	#outta > #inna > div > #describe{
+		width:350px;
+		height:150px;
+		margin:30px;
+		border:3px solid blue;
+		border-radius:3px;
+	}
+			
+	#outta > #inna > div > #saveevent{
+		width:200px;
+		margin:20px 20px;
+		border:3px solid blue;
+		border-radius:3px;
+		background-color:green;
+		color:yellow;
+		cursor:pointer;
+	}
+			
+	#outta > #stickersarea{
+		overflow-Y:scroll;
+		position:relative;
+		height:40vh;
+		margin-top:35px;
+	}
+			
+	#outta > #stickersarea > .sticker{
+		position:relative;
+		float:left;
+		left:0;
+		top:0;
+		margin-top:20px;
+		margin-left:20px;
+		width:200px;
+		height:250px;
+	}
+			
+	#outta > #stickersarea > .sticker > .notepic{
+		position:absolute;
+	}
+		
+	#outta > #stickersarea > .sticker > .deletepic{
+		position:relative;
+		float:right;
+		top:10px;
+		right:15px;
+		visibility:hidden;
+	}
+			
+	#outta > #stickersarea > .sticker > .on{
+		visibility:visible;
+	}
+	
+	#outta > #stickersarea > .sticker > .on:hover{
+		cursor:pointer;
+	}
+			
+	#outta > #stickersarea > .sticker > .txtstick{
+		width:150px;
+		height:140px;
+		margin:40px 15px 0 20px;
+		position:relative;
+		overflow-x:auto;
+		overflow-y:auto;
+		font-family: 'Nothing You Could Do', cursive;
+	}
+			
+	#outta > #stickersarea > .sticker > .datentime{
+		width:100px;
+		margin:10px 20px 0 20px;
+		position:relative;
+		font-family: 'Nothing You Could Do', cursive;
+	}
